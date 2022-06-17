@@ -113,7 +113,6 @@ class DSCNSS(nn.Module):
     def loss_fn_dense(self, out, y, x_p_index, x_n_index, weight_ce, weight_tr):
         self.margin = 0.5
         loss_ce = 0.5 * F.cross_entropy(out, y, reduction='sum')
-        # 三元组损失
         loss_tr = 0
         for i in range(len(C)):
             x_i = out[i]
