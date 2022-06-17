@@ -42,8 +42,11 @@ if you use this code for your research, please cite our paper:
 
 @article{DSCNSS,
 title={ Deep subspace image clustering network with self-expression and self-supervision },
+
 author={Chao Chen, Hu Lu, Hui Wei, Xia Geng },
+
 journal={Applied Intelligence},
+
 year={2022},
 }
 
